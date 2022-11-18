@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+import { doc, addDoc, setDoc, getFirestore, arrayUnion, updateDoc } from "firebase/firestore";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import styles from './Register.module.css';
@@ -10,11 +11,17 @@ const Register = () => {
     const [password, setPassword] = useState('');
     const navigate = useNavigate()
 
+    const auth = getAuth();
+    const db = getFirestore();
+
     const handleAction = (e) => {
         e.preventDefault();
         const authentication = getAuth();
         createUserWithEmailAndPassword(authentication, email, password)
-        .then((response) => {
+        .then( async (response) => {
+          console.log(response.user.uid)
+          await setDoc(doc(db, "users", response.user.uid), {
+          })
           navigate('/')
           sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken)
         })

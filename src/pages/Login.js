@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import { ToastContainer, toast } from 'react-toastify';
@@ -9,6 +9,14 @@ const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate()
+
+
+    useEffect(() => {
+      let authToken = sessionStorage.getItem('Auth Token')
+      if (authToken) {
+        navigate('/')
+      }
+    }, [navigate])
 
     const handleAction = (e) => {
         e.preventDefault();

@@ -1,0 +1,148 @@
+{
+    "plants": [
+        {
+            "id": "alder",
+            "type": "alder",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Alnus_serrulata.jpg/330px-Alnus_serrulata.jpg",
+            "information": ["Alders are trees comprising the genus Alnus in the birch family Betulaceae. The genus comprises about 35 species[2] of monoecious trees and shrubs, a few reaching a large size, distributed throughout the north temperate zone with a few species extending into Central America, as well as the northern and southern Andes", "With a few exceptions, alders are deciduous, and the leaves are alternate, simple, and serrated. The flowers are catkins with elongate male catkins on the same plant as shorter female catkins, often before leaves appear; they are mainly wind-pollinated, but also visited by bees to a small extent. These trees differ from the birches (Betula, another genus in the family) in that the female catkins are woody and do not disintegrate at maturity, opening to release the seeds in a similar manner to many conifer cones."],
+            "genus": "Aldus",
+            "waterFreq": "Generally needs about a gallon of water each schedule,With the potted plants, you might want to water them deeply until you see that the water is dripping at the bottom of the pot.",
+            "manureFreq": ""
+        },
+        {
+            "id": "almond",
+            "type": "almond",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Ametllesjuliol.jpg/800px-Ametllesjuliol.jpg",
+            "information": ["The almond (Prunus amygdalus, syn. Prunus dulcis) is a species of tree native to Iran and surrounding countries,[4] including the Levant.[5] The almond is also the name of the edible and widely cultivated seed of this tree. Within the genus Prunus, it is classified with the peach in the subgenus Amygdalus, distinguished from the other subgenera by corrugations on the shell (endocarp) surrounding the seed.","The fruit of the almond is a drupe, consisting of an outer hull and a hard shell with the seed, which is not a true nut. Shelling almonds refers to removing the shell to reveal the seed. Almonds are sold shelled or unshelled. Blanched almonds are shelled almonds that have been treated with hot water to soften the seedcoat, which is then removed to reveal the white embryo. Once almonds are cleaned and processed, they can be stored over time. Almonds are used in many food cuisines, often featuring prominently in desserts, such as marzipan."],
+            "genus": "Prunus",
+            "waterFreq": "Watering is required every 3 to 5 days when living in a cold region. Water it early in the morning when the soil is dry, outdoors or indoors. You can also determine if watering is needed by checking the soil inside. When the top 2-3 inches of soil is dry, it is time to give the plant a full watering.",
+            "manureFreq": ""
+        },
+        {
+            "id": "aloeVera",
+            "type": "Aloe vera",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/1280px-Aloe_vera_flower_inset.png",
+            "information": ["Aloe vera (/ˈæloʊ(i) vɛrə, vɪər-/)[3] is a succulent plant species of the genus Aloe.[4] It is widely distributed, and is considered an invasive species in many world regions.", "An evergreen perennial, it originates from the Arabian Peninsula, but grows wild in tropical, semi-tropical, and arid climates around the world.[4] It is cultivated for commercial products, mainly as a topical treatment used over centuries.[4][5] The species is attractive for decorative purposes, and succeeds indoors as a potted plant.", "It is used in many consumer products, including beverages, skin lotion, cosmetics, ointments or in the form of gel for minor burns and sunburns. There is little clinical evidence for the effectiveness or safety of Aloe vera extract as a cosmetic or topical drug.[5][7] The name derives from Latin as aloe and vera."],
+            "genus": "Aloe vera",
+            "waterFreq": "Generally speaking, plan to water your aloe plant about every 2-3 weeks in the spring and summer and even more sparingly during the fall and winter.",
+            "manureFreq": ""
+        },
+        {
+            "id": "apple",
+            "type": "Apple",
+            "imageUrl": "https://www.daysoftheyear.com/wp-content/uploads/apple-tree-day-1.jpg",
+            "information": ["An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek, and European Christian tradition.", "Apples grown from seed tend to be very different from those of their parents, and the resultant fruit frequently lacks desired characteristics. Generally, apple cultivars are propagated by clonal grafting onto rootstocks. Apple trees grown without rootstocks tend to be larger and much slower to fruit after planting. Rootstocks are used to control the speed of growth and the size of the resulting tree, allowing for easier harvesting."],
+            "genus": "Malus domestica",
+            "waterFreq": "Generally, apple trees need about an inch of rainfall every seven to ten days for established trees. Another way of looking at it is water when the top eight to ten inches of soil are dry.",
+            "manureFreq": ""
+        },
+        {
+            "id": "bamboo",
+            "type": "Bamboo",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bamboo_Forest%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg/330px-Bamboo_Forest%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg",
+            "information": ["Bamboos are a diverse group of evergreen perennial flowering plants making up the subfamily Bambusoideae of the grass family Poaceae. Giant bamboos are the largest members of the grass family. The origin of the word \"bamboo\" is uncertain, but it probably comes from the Dutch or Portuguese language, which originally borrowed it from Malay or Kannada.", "In bamboo, as in other grasses, the internodal regions of the stem are usually hollow and the vascular bundles in the cross-section are scattered throughout the stem instead of in a cylindrical arrangement. The dicotyledonous woody xylem is also absent. The absence of secondary growth wood causes the stems of monocots, including the palms and large bamboos, to be columnar rather than tapering.", "Bamboos include some of the fastest-growing plants in the world, due to a unique rhizome-dependent system. Certain species of bamboo can grow 91 centimetres (36 inches) within a 24-hour period, at a rate of almost 40 millimetres (1+1⁄2 in) an hour (equivalent to 1 mm every 90 seconds). This rapid growth and tolerance for marginal land, make bamboo a good candidate for afforestation, carbon sequestration and climate change mitigation."],
+            "genus": "Bambusoideae",
+            "waterFreq": "We sometimes water less than 3 times a week if the weather is cool and/or the plants are in full shade. Bamboo in the ground generally need less frequent watering here – once a week, sometimes twice a week is adequate – because the larger volume of soil stays moist and cool for longer periods.",
+            "manureFreq": ""
+        },
+        {
+            "id": "banana",
+            "type": "Banana",
+            "imageUrl": "",
+            "information": ["A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called \"plantains\", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe. The fruits grow upward in clusters near the top of the plant. Almost all modern edible seedless (parthenocarp) bananas come from two wild species – Musa acuminata and Musa balbisiana. The scientific names of most cultivated bananas are Musa acuminata, Musa balbisiana, and Musa × paradisiaca for the hybrid Musa acuminata × M. balbisiana, depending on their genomic constitution. The old scientific name for this hybrid, Musa sapientum, is no longer used.", "Musa species are native to tropical Indomalaya and Australia, and are likely to have been first domesticated in Papua New Guinea.[4][5] They are grown in 135 countries, primarily for their fruit, and to a lesser extent to make fiber, banana wine, and banana beer and as ornamental plants. The world's largest producers of bananas in 2017 were India and China, which together accounted for approximately 38% of total production."],
+            "genus": "Musa",
+            "waterFreq": "Being a long duration crop, the total water-per year requirements are high, varying between 1 200 mm in the humid tropics to 2 200 in the dry tropics.",
+            "manureFreq": ""
+        },
+        {
+            "id": "bean",
+            "type": "Bean",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/French_beans_J1.JPG/330px-French_beans_J1.JPG",
+            "information": ["A bean is the seed of several plants in the family Fabaceae, which are used as vegetables for human or animal food. They can be cooked in many different ways, including boiling, frying, and baking, and are used in many traditional dishes throughout the world.", "Unlike the closely related pea, beans are a summer crop that needs warm temperatures to grow. Legumes are capable of nitrogen fixation and hence need less fertiliser than most plants. Maturity is typically 55–60 days from planting to harvest. As the bean pods mature, they turn yellow and dry up, and the beans inside change from green to their mature colour. As a vine, bean plants need external support, which may take the form of special \"bean cages\" or poles. Native Americans customarily grew them along with corn and squash (the so-called Three Sisters), with the tall cornstalks acting as support for the beans."],
+            "genus": "Fabaceae",
+            "waterFreq": "Creating the bean pod takes photosynthesis energy along with a generous water supply; plants use approximately 1/2 inch of water each day during the blossom and pod growth period. As a result, the plants should be watered daily to replace the water uptaken by the root system during the development period.",
+            "manureFreq": ""
+        },
+        {
+            "id": "blueberry",
+            "type": "Blueberry",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Blueberries.jpg/330px-Blueberries.jpg",
+            "information": ["Blueberries are a widely distributed and widespread group of perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries. Commercial blueberries—both wild (lowbush) and cultivated (highbush)—are all native to North America. The highbush varieties were introduced into Europe during the 1930s.", "Blueberries are usually prostrate shrubs that can vary in size from 10 centimeters (4 inches) to 4 meters (13 feet) in height. In commercial production of blueberries, the species with small, pea-size berries growing on low-level bushes are known as \"lowbush blueberries\" (synonymous with \"wild\"), while the species with larger berries growing on taller, cultivated bushes are known as \"highbush blueberries\". Canada is the leading producer of lowbush blueberries, while the United States produces some 40% of the world supply of highbush blueberries."],
+            "genus": "Vaccinium",
+            "waterFreq": "Blueberries, as a general rule, require 25–40 mm per week during their growing season. If this is not supplied by natural rainfall then the water must be supplied by irrigation.",
+            "manureFreq": ""
+        },
+        {
+            "id": "cabbage",
+            "type": "Cabbage",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Brassica_oleracea0.jpg/330px-Brassica_oleracea0.jpg",
+            "information": ["Brassica oleracea is a plant species that includes many common cultivars, such as cabbage, broccoli, cauliflower, kale, Brussels sprouts, collard greens, Savoy cabbage, kohlrabi, and gai lan.", "In its uncultivated form, it is called wild cabbage and is native to coastal southern and western Europe. A hardy plant in its uncultivated form, its high tolerance for salt and lime, and its intolerance of competition from other plants, typically restrict its natural occurrence to limestone sea cliffs, like the chalk cliffs on both sides of the English Channel, and the windswept coast on the western side of the Isle of Wight. Genetic analysis of nine wild populations on the French Atlantic coast indicated their common feral origin, deriving from domesticated plants escaped from fields and gardens.", "Wild B. oleracea is a tall biennial plant that forms a stout rosette of large leaves in the first year. The leaves are fleshier and thicker than other Brassica species—an adaptation that helps it store water and nutrients in its difficult growing environment. In its second year, it uses the stored nutrients to produce a flower spike 1 to 2 metres (3–7 ft) tall with numerous yellow flowers."],
+            "genus": "Brassica oleracea",
+            "waterFreq": "Water requirements vary from 380 to 500 mm depending on climate and length of growing season. The crop transpiration increases during the crop growing period with a peak toward the end of the season.",
+            "manureFreq": ""
+        },
+        {
+            "id": "carrot",
+            "type": "Carrot",
+            "imageUrl": "https://shiviproducts.com/wp-content/uploads/2021/12/carrotgrowingguide-1000-1504182935.jpg",
+            "information": ["Daucus carota, whose common names include wild carrot, European wild carrot, bird's nest, bishop's lace, and Queen Anne's lace (North America), is a flowering plant in the family Apiaceae. It is native to temperate regions of the Old World and was naturalized in the New World.", "The wild carrot is a herbaceous, somewhat variable biennial plant that grows between 30 and 120 cm (1 and 4 ft) tall, and is roughly hairy, with a stiff, solid stem. The leaves are tripinnate, finely divided and lacy, and overall triangular in shape. The leaves are 5–15 cm (2–6 in) long, bristly and alternate in a pinnate pattern that separates into thin segments. The flowers are small and dull white, clustered in flat, dense umbels. The umbels are terminal and about 8–15 cm (3–6 in) wide. They may be pink in bud and may have a reddish or purple[6] flower in the centre of the umbel. The lower bracts are three-forked or pinnate, which distinguishes the plant from other white-flowered umbellifers. As the seeds develop, the umbel curls up at the edges, becomes more congested, and develops a concave surface."],
+            "genus": "Daucus carota",
+            "waterFreq": "On loamy soils in cool climates, crops may only require irrigation once or twice per week, while on sandy soils in hot climates carrots may need irrigating twice per day.",
+            "manureFreq": ""
+        },
+        {
+            "id": "cucumber",
+            "type": "Cucumber",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/ARS_cucumber.jpg/330px-ARS_cucumber.jpg",
+            "information": ["Cucumber (Cucumis sativus) is a widely-cultivated creeping vine plant in the Cucurbitaceae family that bears usually cylindrical fruits, which are used as culinary vegetables. Considered an annual plant, there are three main varieties of cucumber—slicing, pickling, and seedless—within which several cultivars have been created. The cucumber originates from South Asia, but now grows on most continents, as many different types of cucumber are traded on the global market. In North America, the term wild cucumber refers to plants in the genera Echinocystis and Marah, though the two are not closely related.", "The cucumber is a creeping vine that roots in the ground and grows up trellises or other supporting frames, wrapping around supports with thin, spiraling tendrils. The plant may also root in a soilless medium, whereby it will sprawl along the ground in lieu of a supporting structure. The vine has large leaves that form a canopy over the fruits.", "The fruit of typical cultivars of cucumber is roughly cylindrical, but elongated with tapered ends, and may be as large as 62 centimeters (24 in) long and 10 centimeters (4 in) in diameter. Cucumber fruits consist of 95% water (see nutrition table). In botanical terms, the cucumber is classified as a pepo, a type of botanical berry with a hard outer rind and no internal divisions. However, much like tomatoes and squashes, it is often perceived, prepared, and eaten as a vegetable."],
+            "genus": "Cucumis sativus",
+            "waterFreq": "Cucumbers perform best with regular, deep watering once a week or so and with more frequency if the weather is very hot for a period of days. Inadequate or inconsistent moisture can cause oddly shaped or poor-tasting fruit.",
+            "manureFreq": ""
+        },
+        {
+            "id": "fennel",
+            "type": "Fennel",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Foeniculum_July_2011-1a.jpg/800px-Foeniculum_July_2011-1a.jpg",
+            "information": ["Fennel (Foeniculum vulgare) is a flowering plant species in the carrot family. It is a hardy, perennial herb with yellow flowers and feathery leaves. It is indigenous to the shores of the Mediterranean but has become widely naturalized in many parts of the world, especially on dry soils near the sea-coast and on riverbanks.", "It is a highly flavorful herb used in cooking and, along with the similar-tasting anise, is one of the primary ingredients of absinthe. Florence fennel or finocchio (UK: /fɪˈnɒkioʊ/, US: /-ˈnoʊk-/, Italian: [fiˈnɔkkjo]) is a selection with a swollen, bulb-like stem base that is used as a vegetable.", "Foeniculum vulgare is a perennial herb. It is erect, glaucous green, and grows to heights of up to 2.5 metres (8 feet), with hollow stems. The leaves grow up to 40 centimetres (16 inches) long; they are finely dissected, with the ultimate segments filiform (threadlike), about 0.5 millimetres (1⁄64 in) wide. (Its leaves are similar to those of dill, but thinner.) The flowers are produced in terminal compound umbels 5–17.5 cm (2–7 in) wide,[5] each umbel section having 20–50 tiny yellow flowers on short pedicels. The fruit is a dry schizocarp from 4–10 mm (3⁄16–3⁄8 in) long, half as wide or less, and grooved."],
+            "genus": "Foeniculum vulgare",
+            "waterFreq": "Water regularly, giving plants at least an inch of water per week (more in hot weather). Stick your finger into the soil to check moisture; if the top inch is dry, it's time to water.",
+            "manureFreq": ""
+        },
+        {
+            "id": "grape",
+            "type": "Grape Vine",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Vitis_californica_with_grapes.jpg",
+            "information": ["Vitis (grapevine) is a genus of 79 accepted species[ of vining plants in the flowering plant family Vitaceae. The genus is made up of species predominantly from the Northern Hemisphere. It is economically important as the source of grapes, both for direct consumption of the fruit and for fermentation to produce wine. The study and cultivation of grapevines is called viticulture.", "Most cultivated Vitis varieties are wind-pollinated with hermaphroditic flowers containing both male and female reproductive structures, while wild species are dieceous. These flowers are grouped in bunches called inflorescences. In many species, such as Vitis vinifera, each successfully pollinated flower becomes a grape berry with the inflorescence turning into a cluster of grapes. While the flowers of the grapevines are usually very small, the berries are often large and brightly colored with sweet flavors that attract birds and other animals to disperse the seeds contained within the berries.", "Grapevines usually only produce fruit on shoots that came from buds that were developed during the previous growing season. In viticulture, this is one of the principles behind pruning the previous year's growth (or \"One year old wood\") that includes shoots that have turned hard and woody during the winter (after harvest in commercial viticulture). These vines will be pruned either into a cane which will support 8 to 15 buds or to a smaller spur which holds 2 to 3 buds."],
+            "genus": "Vitis",
+            "waterFreq": "Young grapes — that is, within their first two years/growing seasons — should receive about . 5 to 1 inches (5-10 gallons/vine/week) of water per week. Since the root system is small and shallow at this stage, watering can be more frequent and shorter duration.",
+            "manureFreq": ""
+        },
+        {
+            "id": "turmeric",
+            "type": "Turmeric",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Turmeric_inflorescence.jpg/800px-Turmeric_inflorescence.jpg",
+            "information": ["Turmeric (/ˈtɜːrmərɪk, ˈtjuː-/) is a flowering plant, Curcuma longa, of the ginger family, Zingiberaceae, the rhizomes of which are used in cooking. The plant is a perennial, rhizomatous, herbaceous plant native to the Indian subcontinent and Southeast Asia that requires temperatures between 20 and 30 °C (68 and 86 °F) and a considerable amount of annual rainfall to thrive. Plants are gathered each year for their rhizomes, some for propagation in the following season and some for consumption.", "The rhizomes are used fresh or boiled in water and dried, after which they are ground into a deep orange-yellow powder commonly used as a coloring and flavoring agent in many Asian cuisines, especially for curries, as well as for dyeing, characteristics imparted by the principal turmeric constituent, curcumin. Turmeric powder has a warm, bitter, black pepper-like flavor and earthy, mustard-like aroma.", "Curcumin, a bright yellow chemical produced by the turmeric plant, is approved as a food additive by the World Health Organization, European Parliament, and United States Food and Drug Administration. Although long used in Ayurvedic medicine, where it is also known as haridra, there is no high-quality clinical evidence that consuming turmeric or curcumin is effective for treating any disease."],
+            "genus": "Curcuma longa",
+            "waterFreq": "Once in 10-15 days. For rain fed crop 30-40 Irrigation (sandy soils) 15-20 irrigations (clayey soils)",
+            "manureFreq": ""
+        },
+        {
+            "id": "lavender",
+            "type": "Lavender",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Single_lavender_flower02.jpg/330px-Single_lavender_flower02.jpg",
+            "information": ["Lavandula (common name lavender) is a genus of 47 known species of flowering plants in the mint family, Lamiaceae. It is native to the Old World and is found in Cape Verde and the Canary Islands, and from Europe across to northern and eastern Africa, the Mediterranean, southwest Asia to India.", "Many members of the genus are cultivated extensively in temperate climates as ornamental plants for garden and landscape use, for use as culinary herbs, and also commercially for the extraction of essential oils. The most widely cultivated species, Lavandula angustifolia, is often referred to as lavender, and there is a color named for the shade of the flowers of this species. Lavender has been used over centuries in traditional medicine and cosmetics.", "The genus includes annual or short-lived herbaceous perennial plants, and shrub-like perennials, subshrubs or small shrubs. Leaf shape is diverse across the genus. They are simple in some commonly cultivated species; in other species, they are pinnately toothed, or pinnate, sometimes multiple pinnate and dissected. In most species, the leaves are covered in fine hairs or indumentum, which normally contain essential oils."],
+            "genus": "Lavandula spica",
+            "waterFreq": "Water once or twice a week after planting until plants are established. Water mature plants every two to three weeks until buds form, then once or twice weekly until harvest.",
+            "manureFreq": ""
+        },
+        {
+            "id": "lemon",
+            "type": "Lemon",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/P1030323.JPG/330px-P1030323.JPG",
+            "information": ["The lemon (Citrus limon) is a species of small evergreen trees in the flowering plant family Rutaceae, native to Asia, primarily Northeast India (Assam), Northern Myanmar or China.", "The tree's ellipsoidal yellow fruit is used for culinary and non-culinary purposes throughout the world, primarily for its juice, which has both culinary and cleaning uses. The pulp and rind are also used in cooking and baking. The juice of the lemon is about 5% to 6% citric acid, with a pH of around 2.2, giving it a sour taste. The distinctive sour taste of lemon juice makes it a key ingredient in drinks and foods such as lemonade and lemon meringue pie.", "Lemon juice, rind, and peel are used in a wide variety of foods and drinks. The whole lemon is used to make marmalade, lemon curd and lemon liqueur. Lemon slices and lemon rind are used as a garnish for food and drinks. Lemon zest, the grated outer rind of the fruit, is used to add flavor to baked goods, puddings, rice, and other dishes."],
+            "genus": "Citrus limon",
+            "waterFreq": "Most lemon tree growers need to water their potted plant once every 3-7 days. Beware that the frequency with which you need to water your lemon tree may change over time.",
+            "manureFreq": ""
+        }
+    ]
+}

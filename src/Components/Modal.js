@@ -22,11 +22,12 @@ const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
 
     const [username, setUsername] = useState('');
     const [reason, setReason] = useState('');
-    const [type, setType] = useState('');
+    const [type, setType] = useState('Alder');
+    const [height, setHeight] = useState(1);
 
     const addPlant = async (e) => {
         e.preventDefault();
-        
+
         try {
             // console.log(auth)
             console.log(markerList[markerList.length - 1]['lng'])
@@ -45,7 +46,11 @@ const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
             await setDoc(plantRef, {
                 ownerId: auth.currentUser.uid,
                 lng: markerList[markerList.length - 1]['lng'],
-                lat: markerList[markerList.length - 1]['lat']
+                lat: markerList[markerList.length - 1]['lat'],
+                username: username,
+                type: type,
+                reason: reason,
+                height: parseInt(height)
             })
 
             setFirstTime(true);
@@ -74,10 +79,10 @@ const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
                     <motion.div className={styles.container} variants={modal} initial="hidden" animate="visible">
                         <form className={styles.contact}>
                             <h3 className={styles.headText}>Add your plant details</h3>
-                            <input placeholder="Your Plant's name" type="text" className={styles.inputF}/> 
-                            <select name="type" id="type" className={styles.plantType}>
+                            <input placeholder="Your Plant's name" type="text" onChange={(e) => setUsername(e.target.value)} className={styles.inputF}/> 
+                            <select name="type" id="type" onChange={(e) => setType(e.target.value)} className={styles.plantType}>
                                 <option value="alder">Alder</option>
-                                <option value="Aloe vera">Aloevera</option>
+                                <option value="Aloe vera">Aloe vera</option>
                                 <option value="Apple">Apple</option>
                                 <option value="Bamboo">Bamboo</option>
                                 <option value="Banana">Banana</option>
@@ -92,7 +97,8 @@ const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
                                 <option value="Lavender">Lavender</option>
                                 <option value="Lemon">Lemon</option>
                             </select>
-                            <textarea placeholder="Why are you planting?" className={styles.inputF + ' ' + styles.inputA}></textarea>
+                            <input placeholder="Plant's height" type="number" onChange={(e) => setHeight(e.target.value)} className={styles.inputF}/> 
+                            <textarea placeholder="Why are you planting?" onChange={(e) => setReason(e.target.value)} className={styles.inputF + ' ' + styles.inputA}></textarea>
                             <button name="submit" onClick={addPlant} className={styles.contactSubmit}>Submit</button>
                         </form>
                 </motion.div>

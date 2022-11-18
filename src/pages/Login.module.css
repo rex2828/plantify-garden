@@ -1,0 +1,77 @@
+.container {
+    color: #777;
+    font-size: 12px;
+    font-weight: 100;
+    max-width: 25vw;
+    margin: 0 auto;
+}
+
+.contact {
+    background: #F9F9F9;
+    padding: 10px 30px;
+    margin: 150px 0px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+
+.headText {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.inputF {
+  width: 92%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  margin: 0 0 10px;
+
+}
+
+.inputF:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+.inputA {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.contactSubmit {
+  cursor: pointer;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contactSubmit:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contactSubmit:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.inputF:focus,
+.inputA:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}

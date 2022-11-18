@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import { doc, addDoc, setDoc, getFirestore, arrayUnion, updateDoc } from "firebase/firestore";
@@ -10,6 +10,14 @@ const Register = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate()
+
+
+    useEffect(() => {
+      let authToken = sessionStorage.getItem('Auth Token')
+      if (authToken) {
+        navigate('/')
+      }
+    }, [navigate])
 
     const auth = getAuth();
     const db = getFirestore();

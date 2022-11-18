@@ -8,18 +8,12 @@ import { app } from './firebase-config';
 import { getAuth } from 'firebase/auth';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Dashboard from './pages/Dashboard';
 
 
 function App() {
   let navigate = useNavigate();
   const auth = getAuth();
-
-  useEffect(() => {
-    let authToken = sessionStorage.getItem('Auth Token')
-    if (authToken) {
-      navigate('/')
-    }
-  }, [navigate])
 
   const handleLogout = () => {
     auth.signOut()
@@ -45,6 +39,11 @@ function App() {
             path='/register'
             element={
               <Register />}
+          />
+          <Route
+            path='/dashboard'
+            element={
+              <Dashboard />}
           />
         </Routes>
         <Footer />

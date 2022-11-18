@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { motion, AnimatePresence } from "framer-motion"
 import styles from "./Modal.module.css"
 import { doc, setDoc, getFirestore, arrayUnion, updateDoc } from "firebase/firestore";
 import { getAuth } from 'firebase/auth';
+
+const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
+
+    const db = getFirestore();
+    const auth = getAuth();
+
+    const [username, setUsername] = useState('');
+    const [reason, setReason] = useState('');
+    const [type, setType] = useState('');
 
     const modal = {
         hidden: {
@@ -15,10 +24,6 @@ import { getAuth } from 'firebase/auth';
             transition: { delay: 0.5 }
         }
     }
-const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
-
-    const db = getFirestore();
-    const auth = getAuth();
 
     const addPlant = async (e) => {
         e.preventDefault();
@@ -63,17 +68,19 @@ const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
         setShowModal(false);
     }
 
-    const closeHandler = () => {}
+    const closeHandler = () => {
+        setShowModal(false)
+    }
 
   return (
     <AnimatePresence exitBeforeEnter>
         {
             showModal && (
-                    <motion.div className={styles.container} variants={modal} initial="hidden" animate="visible">
+                    <motion.div className={styles.container} variants={modal} initial="hidden" animate="visible" >
                         <form className={styles.contact}>
-                            <div>
+                            <div className={styles.headerDiv}>
                                 <h3 className={styles.headText}>Add your plant details</h3>
-                                <button onClick={closeHandler}><img src='/images/close.png' alt='close' /></button>
+                                <div className={styles.closeButtonDiv}><img src='/images/close.png' alt='close' className={styles.closeButton} onClick={closeHandler}/></div>
                             </div>
                             <input placeholder="Your Plant's name" type="text" className={styles.inputF}/> 
                             <select name="type" id="type" className={styles.plantType}>
@@ -94,7 +101,7 @@ const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
                                 <option value="Lemon">Lemon</option>
                             </select>
                             <textarea placeholder="Why are you planting?" className={styles.inputF + ' ' + styles.inputA}></textarea>
-                            <button name="submit" type="submit" className={styles.contactSubmit} >Submit</button>
+                            <button name="submit" onClick={addPlant} className={styles.contactSubmit}>Submit</button>
                         </form>
                 </motion.div>
             )

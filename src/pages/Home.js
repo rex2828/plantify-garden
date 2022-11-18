@@ -4,14 +4,13 @@ import { useNavigate } from 'react-router-dom'
 import Map from "../Components/Map"
 import Modal from "../Components/Modal"
 export default function Home() {
-
+    const auth = getAuth()
     const [showModal, setShowModal] = useState(false)
     const [firstTime, setFirstTime] = useState(true);
     const [markerList, setMarkerList] = useState([{
       lat: 13.5269,
       lng: 79.9802
     }])
-    const auth = getAuth()
 
     const addMarker = (ev) => {
         var newMarker = {
@@ -79,7 +78,6 @@ export default function Home() {
                 addMarker={addMarker} 
                 onClickMarker={onClickMarker} 
                 markerList={markerList}/>
-            <button onClick={handleLogout}>Log out</button>
         </div>
     )
 }

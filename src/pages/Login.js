@@ -30,13 +30,18 @@ const Login = () => {
 
     return (
         <>
-            <div className={styles.container}>  
-                <form className={styles.contact}>
-                    <h3 className={styles.headText}>Login</h3>
-                    <input placeholder="Your Email" type="email" className={styles.inputF} value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="username" /> 
-                    <input placeholder="Your Password" type="password" className={styles.inputF} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="current-password"/> 
-                    <button name="submit" className={styles.contactSubmit} onClick={handleAction}>Login</button>
-                </form>
+            <div className={styles.container}>
+                <div className={styles.imageDiv}>
+                  <img src='/images/plant-in-hand.svg' alt='plant' className={styles.image} />
+                </div>
+                <div className={styles.formDiv}>
+                  <form className={styles.contact}>
+                      <h3 className={styles.headText}>Login</h3>
+                      <input placeholder="Your Email" type="email" className={styles.inputF} value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="username" /> 
+                      <input placeholder="Your Password" type="password" className={styles.inputF} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="current-password"/> 
+                      <button name="submit" className={styles.contactSubmit} onClick={handleAction}>Login</button>
+                  </form>
+                </div>
             </div>
             <ToastContainer />
         </>

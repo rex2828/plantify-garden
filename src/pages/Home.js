@@ -1,10 +1,8 @@
-import { getAuth } from 'firebase/auth';
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Map from "../Components/Map"
 import Modal from "../Components/Modal"
 export default function Home() {
-    const auth = getAuth();
 
     const [showModal, setShowModal] = useState(false)
     const [firstTime, setFirstTime] = useState(true);

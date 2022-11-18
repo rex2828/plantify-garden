@@ -1,0 +1,31 @@
+.navContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #004F44;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+}
+
+.navItems {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navItem {
+    margin-right: 25px;
+}
+
+.navItemsDiv, .logoDiv, .navIconsDiv {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.navIcon {
+    margin-left: 20px;
+    cursor: pointer;
+    width: 20px;
+}

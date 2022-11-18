@@ -5,6 +5,7 @@ import Map from "../Components/Map"
 import Modal from "../Components/Modal"
 export default function Home() {
     const auth = getAuth()
+
     const [showModal, setShowModal] = useState(false)
     const [firstTime, setFirstTime] = useState(true);
     const [markerList, setMarkerList] = useState([{
@@ -15,10 +16,9 @@ export default function Home() {
     const addMarker = (ev) => {
         var newMarker = {
           lat: ev.latLng.lat(),
-          lng: ev.latLng.lng()
+          lng: ev.latLng.lng(),
+          ownerId: auth.currentUser.uid
         }
-        console.log(firstTime);
-        console.log(markerList[1]);
         if(!markerList.includes(newMarker)){
           if(firstTime){
             // firstTime = false;
@@ -45,15 +45,9 @@ export default function Home() {
           setFirstTime(true);
         }
       }
-    
-
-    const handleLogout = () => {
-        auth.signOut()
-        sessionStorage.removeItem('Auth Token');
-        navigate('/login')
-    }
 
     let navigate = useNavigate();
+
 
     useEffect(() => {
         let authToken = sessionStorage.getItem('Auth Token')
@@ -77,7 +71,8 @@ export default function Home() {
                 setShowModal={setShowModal} 
                 addMarker={addMarker} 
                 onClickMarker={onClickMarker} 
-                markerList={markerList}/>
+                markerList={markerList}
+                setMarkerList={setMarkerList}/>
         </div>
     )
 }

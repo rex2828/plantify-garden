@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { motion, AnimatePresence } from "framer-motion"
 import styles from "./Modal.module.css"
 import { doc, setDoc, getFirestore, arrayUnion, updateDoc } from "firebase/firestore";
@@ -19,6 +19,10 @@ const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
 
     const db = getFirestore();
     const auth = getAuth();
+
+    const [username, setUsername] = useState('');
+    const [reason, setReason] = useState('');
+    const [type, setType] = useState('');
 
     const addPlant = async (e) => {
         e.preventDefault();
@@ -89,7 +93,7 @@ const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
                                 <option value="Lemon">Lemon</option>
                             </select>
                             <textarea placeholder="Why are you planting?" className={styles.inputF + ' ' + styles.inputA}></textarea>
-                            <button name="submit" type="submit" className={styles.contactSubmit}>Submit</button>
+                            <button name="submit" onClick={addPlant} className={styles.contactSubmit}>Submit</button>
                         </form>
                 </motion.div>
             )

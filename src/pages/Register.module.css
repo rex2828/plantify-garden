@@ -2,23 +2,42 @@
     color: #777;
     font-size: 12px;
     font-weight: 100;
-    max-width: 25vw;
-    margin: 0 auto;
+    font-family: 'Merienda', cursive;
+    margin: 150px auto;
+    display: flex;
 }
 
+.imageDiv {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.image {
+  width: 400px;
+}
+
+.formDiv {
+  width: 50%;
+}
+
+
 .contact {
-    background: #F9F9F9;
-    padding: 10px 30px;
-    margin: 150px 0px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    border-radius: 10px;
+  background: #F9F9F9;
+  padding: 10px 30px;
+  max-width: 300px;
+  height: 300px;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
 }
 
 .headText {
-  display: block;
   font-size: 30px;
   font-weight: 300;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .inputF {
@@ -26,10 +45,8 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   background: #FFF;
-  margin: 0 0 5px;
+  margin: 0 0 30px;
   padding: 10px;
-  margin: 0 0 10px;
-
 }
 
 .inputF:hover {

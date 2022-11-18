@@ -13,6 +13,11 @@ import styles from "./Modal.module.css"
             transition: { delay: 0.5 }
         }
     }
+
+    const closeHandler = (e) => {
+        e.preventDefault()
+    }
+
 const Modal = ({ showModal, setShowModal }) => {
   return (
     <AnimatePresence exitBeforeEnter>
@@ -20,7 +25,10 @@ const Modal = ({ showModal, setShowModal }) => {
             showModal && (
                     <motion.div className={styles.container} variants={modal} initial="hidden" animate="visible">
                         <form className={styles.contact}>
-                            <h3 className={styles.headText}>Add your plant details</h3>
+                            <div>
+                                <h3 className={styles.headText}>Add your plant details</h3>
+                                <button onClick={closeHandler}><img src='/images/close.png' alt='close' /></button>
+                            </div>
                             <input placeholder="Your Plant's name" type="text" className={styles.inputF}/> 
                             <select name="type" id="type" className={styles.plantType}>
                                 <option value="alder">Alder</option>

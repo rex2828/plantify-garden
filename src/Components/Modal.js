@@ -93,7 +93,7 @@ const Modal = ({ showModal, setShowModal, markerList, setFirstTime }) => {
                                 <h3 className={styles.headText}>Add your plant details</h3>
                                 <div className={styles.closeButtonDiv}><img src='/images/close.png' alt='close' className={styles.closeButton} onClick={closeHandler}/></div>
                             </div>
-                            <input placeholder="Your Plant's name" type="text" onChange={(e) => setUsername(e.target.value)} className={styles.inputF}/> 
+                            <input placeholder="Your Plant's name" type="text" onChange={(e) => setUsername(e.target.value)} className={styles.inputF} /> 
                             <select name="type" id="type" onChange={(e) => setType(e.target.value)} className={styles.plantType}>
                                 <option value="alder">Alder</option>
                                 <option value="Aloe vera">Aloevera</option>

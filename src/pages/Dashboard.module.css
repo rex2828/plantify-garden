@@ -1,0 +1,20 @@
+.left {
+    width: 50%;
+    border-right: 2px dotted #b7b7b7;
+
+}
+.right {
+    width: 50%;
+}
+
+.dashboardContainer {
+    min-height: 100vh;
+    display: flex;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 50px;
+}

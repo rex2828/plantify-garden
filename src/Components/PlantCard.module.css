@@ -1,0 +1,71 @@
+.cardWrapper {
+    padding: 20px;
+    display: inline-block;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.restImage {
+    margin: auto;
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.rName {
+    display: block;
+    font-family: 'Merienda', cursive;
+    font-size: 18px;
+    font-weight: 200;
+    color: #202020;
+    margin-bottom: 15px;
+}
+
+.lat {
+    display: block;
+}
+
+.lng {
+    display: block;
+}
+
+.latlng {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.btnContainer {
+    display: flex;
+
+}
+
+.waterBtn {
+    color: white;
+    background: #004F44;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.detailsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ptype {
+    color: gray;
+    margin-bottom: 15px;
+}

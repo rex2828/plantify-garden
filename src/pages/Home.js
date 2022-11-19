@@ -8,10 +8,7 @@ export default function Home() {
 
     const [showModal, setShowModal] = useState(false)
     const [firstTime, setFirstTime] = useState(true);
-    const [markerList, setMarkerList] = useState([{
-      lat: 13.5269,
-      lng: 79.9802
-    }])
+    const [markerList, setMarkerList] = useState([])
 
     const addMarker = (ev) => {
         var newMarker = {

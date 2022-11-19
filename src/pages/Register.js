@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
-import { doc, addDoc, setDoc, getFirestore, arrayUnion, updateDoc } from "firebase/firestore";
+import { doc, setDoc, getFirestore } from "firebase/firestore";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import styles from './Register.module.css';
@@ -52,6 +52,7 @@ const Register = () => {
                       <input placeholder="Your Email" type="email" className={styles.inputF} value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="username" /> 
                       <input placeholder="Your Password" type="password" className={styles.inputF} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="current-password"/> 
                       <button name="submit" className={styles.contactSubmit} onClick={handleAction}>Register</button>
+                      <p>Already have an account? <Link to='/login'>Login</Link></p>
                   </form>
                 </div>
                 

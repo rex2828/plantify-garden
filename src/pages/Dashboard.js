@@ -55,6 +55,8 @@ const Dashboard = () => {
             "information": p.information,
             "manureFreq": p.manureFreq,
             "waterFreq": p.waterFreq,
+            "waterDates": myplant.waterDates,
+            "manureDates": myplant.manureDates,
           })
         }
       })
@@ -63,6 +65,7 @@ const Dashboard = () => {
   }, [plantList,myPlants])
 
   const showCalenderHandler = (clickedPlant) => {
+    console.log(clickedPlant)
     setShowInformation(false)
     setShowCalender(true)
     setClickedPlant(clickedPlant)
@@ -85,8 +88,8 @@ const Dashboard = () => {
           }</div>
       </div>
       <div className={styles.right}>
-          {showCalender && <Calender badge={'💦'} headingText={'Watering history'} highlightedDaysList={[2, 15, 27]} />}
-          {showCalender && <Calender badge={'🚜'} headingText={'Manuring history'} highlightedDaysList={[2, 15, 27]} />}
+          {showCalender && <Calender plant={clickedPlant} badge={'💦'} headingText={'Watering history'} highlightedDaysList={clickedPlant.waterDates ? clickedPlant.waterDates: []} />}
+          {showCalender && <Calender badge={'🚜'} headingText={'Manuring history'} highlightedDaysList={clickedPlant.manureDates ? clickedPlant.manureDates: []} />}
           {showInformation && <Information plant={clickedPlant}/>}
       </div>
     </div>

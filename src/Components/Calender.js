@@ -10,7 +10,6 @@ import styles from './Calender.module.css';
 
 const Calender = ({badge, headingText, highlightedDaysList}) => {
     const [value, setValue] = useState(dayjs());
-    const [highlightedDays, setHighlightedDays] = useState(highlightedDaysList);
 
     return (
         <div className={styles.calenderDiv}>
@@ -27,7 +26,7 @@ const Calender = ({badge, headingText, highlightedDaysList}) => {
                 renderDay={(day, _value, DayComponentProps) => {
                     const isSelected =
                     !DayComponentProps.outsideCurrentMonth &&
-                    highlightedDays.indexOf(day.date()) > 0;
+                    highlightedDaysList.indexOf(day.date()) >= 0;
         
                     return (
                     <Badge

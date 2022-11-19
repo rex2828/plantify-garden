@@ -1,13 +1,22 @@
 {
   "files": {
     "main.css": "/plantify-garden/static/css/main.e665e969.css",
-    "main.js": "/plantify-garden/static/js/main.9f49d4f5.js",
+    "main.js": "/plantify-garden/static/js/main.612c83a6.js",
+    "static/media/logo.svg": "/plantify-garden/static/media/logo.d10e004c6b2d9bdd3143f3d34c19abd2.svg",
+    "static/media/biology.png": "/plantify-garden/static/media/biology.0dbd5329c9c101f1a6ef.png",
+    "static/media/plant-in-hand.svg": "/plantify-garden/static/media/plant-in-hand.f7075937ac9f88c825393b3df4004c9e.svg",
+    "static/media/dashboard.png": "/plantify-garden/static/media/dashboard.15e7d403b31b805dc24c.png",
+    "static/media/insta-icon.svg": "/plantify-garden/static/media/insta-icon.6fb76cd18b8e3f98feca49d9c43096ee.svg",
+    "static/media/user.svg": "/plantify-garden/static/media/user.aab3ff5becca57f746b3643e29346033.svg",
+    "static/media/search.svg": "/plantify-garden/static/media/search.14b9767c3cc7e8f1a169b21eee02884a.svg",
     "index.html": "/plantify-garden/index.html",
+    "static/media/twitter-icon.svg": "/plantify-garden/static/media/twitter-icon.64e9b1179e532e620da9973cc0fe1897.svg",
+    "static/media/facebook-icon.svg": "/plantify-garden/static/media/facebook-icon.8f1f9ff2c07160fc100b6d6509062eaf.svg",
     "main.e665e969.css.map": "/plantify-garden/static/css/main.e665e969.css.map",
-    "main.9f49d4f5.js.map": "/plantify-garden/static/js/main.9f49d4f5.js.map"
+    "main.612c83a6.js.map": "/plantify-garden/static/js/main.612c83a6.js.map"
   },
   "entrypoints": [
     "static/css/main.e665e969.css",
-    "static/js/main.9f49d4f5.js"
+    "static/js/main.612c83a6.js"
   ]
 }

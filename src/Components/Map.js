@@ -66,11 +66,11 @@ const Map = ({setShowModal, addMarker, onClickMarker, markerList, setMarkerList}
   return (
     <GoogleMap zoom={15} center={center} mapContainerStyle={mapContainerStyle} onClick={addMarker}>
         {/* <MarkerF position={center} onLoad={onLoad} onClick={onClickMarker}/> */}
-        {markerList.map((e) => <MarkerF options={
+        {markerList.map((e, index) => <MarkerF options={
           {
             icon: (e.ownerId !== auth.currentUser?.uid)? othersPlant : myPlant,
           }
-        } position={{lat: e.lat, lng: e.lng}} onLoad={onLoad} onClick={onClickMarker}/>)}
+        } position={{lat: e.lat, lng: e.lng}} onLoad={onLoad} onClick={(ev) =>onClickMarker(index, ev)}/>)}
       </GoogleMap>
   )
 }

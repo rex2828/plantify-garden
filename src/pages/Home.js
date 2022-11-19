@@ -12,6 +12,7 @@ export default function Home() {
       lat: 13.5269,
       lng: 79.9802
     }])
+    const [plantDetails, setPlantDetails] = useState({})
 
     const addMarker = (ev) => {
         var newMarker = {
@@ -28,13 +29,15 @@ export default function Home() {
             setMarkerList(markerList)
           }
           setMarkerList(markerList => [...markerList, newMarker]);
+          setPlantDetails(null);
           setShowModal(true);
         }
         // console.log(markerList);
       
     }
 
-    const onClickMarker = (e) => {
+    const onClickMarker = (index, e) => {
+        setPlantDetails(markerList[index]);
         const d = new Date();
         // console.log(d.valueOf())
         setShowModal(true)
@@ -55,6 +58,7 @@ export default function Home() {
         if (authToken) {
             navigate('/')
         }
+
         if (!authToken) {
             navigate('/login')
         }
@@ -65,7 +69,9 @@ export default function Home() {
                 showModal={showModal} 
                 setShowModal={setShowModal} 
                 markerList={markerList} 
-                setFirstTime={setFirstTime}/>
+                setFirstTime={setFirstTime}
+                plantDetails={plantDetails}
+                setMarkerList={setMarkerList}/>
 
             <Map 
                 setShowModal={setShowModal} 

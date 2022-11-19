@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/plantify-garden/static/css/main.e665e969.css",
+    "main.js": "/plantify-garden/static/js/main.9f49d4f5.js",
+    "index.html": "/plantify-garden/index.html",
+    "main.e665e969.css.map": "/plantify-garden/static/css/main.e665e969.css.map",
+    "main.9f49d4f5.js.map": "/plantify-garden/static/js/main.9f49d4f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e665e969.css",
+    "static/js/main.9f49d4f5.js"
+  ]
+}
